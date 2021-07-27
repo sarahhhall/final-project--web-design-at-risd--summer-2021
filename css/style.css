@@ -74,9 +74,15 @@ h1 {
 
 a {
     width: 50%;
+    text-decoration: none; 
+    color: #010101;
 }
 
 .portfolio-pic {
     width: 90%;
     padding: 20px;
 }
+
+a:hover {
+    text-decoration: underline 3px solid #FF6B6B;
+    text-underline-offset: 4px;
