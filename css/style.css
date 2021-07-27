@@ -24,3 +24,41 @@ li {
     padding-left: 36px;
     font-weight: 600;
 }
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 60vw; 
+    height: 200px;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 3px;
+}
+
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: 30px; 
+    font-weight: 700; 
+    margin-left: 38px;
+    margin-bottom: 20px;
+    text-decoration: underline 2px solid #F7C0AA;
+}
+
+.profile-pic-container { 
+    width: 80%; 
+    height: 80%;
+    border-radius: 100%; 
+    background: url(../img/imgs--main-page/profile-pic.jpg) no-repeat left center / cover; 
+    box-shadow: 0px 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.intro-text {
+    margin-left: 38px;
+    line-height: 1.2;
+}
