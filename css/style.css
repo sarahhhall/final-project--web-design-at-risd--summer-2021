@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter';
+    color: #010101;
+}
+
+.animoji {
+    position: absolute; 
+    width: 60px; 
+    height: 60px; 
+    left: 60px;
+    top: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 32px; 
+    margin-right: 60px; 
+    padding: 21px 0px;
+}
+
+li {
+    padding-left: 36px;
+    font-weight: 600;
+}
