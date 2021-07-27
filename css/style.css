@@ -47,7 +47,6 @@ h1 {
     font-weight: 700; 
     margin-left: 38px;
     margin-bottom: 20px;
-    text-decoration: underline 2px solid #F7C0AA;
 }
 
 .profile-pic-container { 
@@ -61,4 +60,21 @@ h1 {
 .intro-text {
     margin-left: 38px;
     line-height: 1.2;
+}
+
+#portfolio-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+a {
+    width: 50%; 
+}
+
+.portfolio-pic {
+    width: 100%;
 }
